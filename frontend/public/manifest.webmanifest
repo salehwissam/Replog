@@ -1,0 +1,26 @@
+{
+  "name": "REPLOG — Registro de treinos",
+  "short_name": "REPLOG",
+  "description": "Registre cada repetição. Supere cada recorde.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "categories": ["health", "fitness", "sports"],
+  "icons": [
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Começar treino", "short_name": "Treinar", "url": "/treino", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Recordes", "url": "/recordes", "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

@@ -1,0 +1,2 @@
+MAX_ID = 2_147_483_647
+SEARCH_PATTERN = r"^[^\x00]*$"
